@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #define N 100000
-
+ 
 int calculHorner(int t[], int n, int x)
 {
     int res = t[n] * x;
