@@ -12,7 +12,7 @@ void lireElements(int t[], int n)
         scanf("%d", &t[i]);
     }
 }
-
+ 
 void fusion2tab(int A[], int B[], int C[], int n, int m)
 {
     int j = 0, k = 0;
