@@ -13,7 +13,7 @@ void lireElements(int t[], int n)
         scanf("%d", &t[i]);
     }
 }
-
+ 
 void insererElement(int t[], int n, int v)
 {
     int j = 0;
