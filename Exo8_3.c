@@ -3,14 +3,6 @@
 #include <math.h>
 #define N 100000
 
-void afficherElements(int t[], int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        printf("%d ", t[i]);
-    }
-    printf("\n");
-}
 void conquerCombine(int t[], int t1[], int t2[], int n)
 {
 
@@ -55,6 +47,15 @@ void divide(int t[], int n)
     divide(t1, mid);
     divide(t2, n - mid);
     conquerCombine(t, t1, t2, n);
+}
+
+void afficherElements(int t[], int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("%d ", t[i]);
+    }
+    printf("\n");
 }
 
 void lireElements(int t[], int n)
