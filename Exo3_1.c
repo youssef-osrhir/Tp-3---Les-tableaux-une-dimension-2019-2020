@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 #define N 100000
-
+ 
 int countInversion(int t[], int n)
 {
     int cpt = 0;
